@@ -35,8 +35,54 @@ img: ":about.jpg"
 ---
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+# Hi there! 🙂
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
+I'm Mitch (she/her). 👩‍💻 I graduated as a computer scientist, and I've been working for the last 5 years using Machine Learning to solve real world problems in areas such as Computer Vision, Natural Language Processing and Chemometrics.
 
-{{ website_info_text_second }}
+### Community
+
+I love collaborating and participating with Tech communities and I co-created three of them:
+
+1. [Hackrobots](https://www.meetup.com/HackrobotsMX/) focused in robotics.
+2. [AI Learners](https://twitter.com/ai_learners) focused in AI/ML/DL.
+3. [Technolatinas](https://twitter.com/Technolatinas) focused on breaking the gender gap in Tech.
+
+### Work
+
+Currently, I work as a MLE at [BÜCHI Labortechnik](https://www.buchi.com/en). My day to day consists in solving scientific and engineering challenges, building data pipelines and putting ML models into production.
+
+### Topics I'm into
+
+* Reproducible Machine Learning
+* Data Engineering
+* MLOps
+* Algorithmic Fairness
+* ML in Production
+
+### Hobbies and interests
+
+I enjoy adventure and sports, but also lots of random stuff:
+
+🏃‍♀️      Running
+
+📖      Reading
+
+⛰️      Hiking
+
+🧘‍♀️      Yoga
+
+🪴      Plants
+
+✈️      Traveling
+
+🪐      Astronomy
+
+📸      Photography
+
+🥋      Taekwondo
+
+🖼️      Museums
+
+### Location
+
+I am based in Zürich, Switzerland 🇨🇭, but I am Mexican 🇲🇽. Yes I miss Tacos 🌮, but I am ok eating Fondue 🫕  😜
