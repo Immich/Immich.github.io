@@ -39,42 +39,84 @@ lng_pair: id_links
 ###########################################################
 page_data:
   main:
-    header: "Links"
-    info: "Your Links page description."
+    header: "Talks and Workshops"
+    info: "Talks, workshops and podcasts in which I've participated"
 
-  # To change order of the Categories, simply change order. (you don't need to change list order.)
+  # To change order of the Categories, simply change order. (you don't need to change list order.)8C52FF #8459DB
   category:
-    - title: "JekyII / Liquid"
-      type: id_jekyiiliquid
-      color: "gray"
-    - title: "Web Design"
-      type: id_webdesign
+    - title: "Machine Learning"
+      type: id_ml
+      color: "#00C2CB"
+    - title: "Algorithmic Fairness"
+      type: id_fairness
       color: "#F4A273"
-    - title: "Programming"
-      type: id_programming
+    - title: "Software Engineering"
+      type: id_swe
       color: "#62b462"
+    - title: "Natural Language Processing"
+      type: id_nlp
+      color: "#FF66C4"
 
   list:
     -
-    # programming
-    - type: id_programming
-      title: "Stack OverFlow"
-      url: "https://stackoverflow.com/"
-      info: "Stack Overflow is a question and answer website for professional and enthusiastic programmers."
+    # ML
+    - type: id_ml
+      title: "How to get started in a Data role (ESP)"
+      url: "https://youtu.be/lAfXWNwfDdw"
+      info: >
+        10/2021 <br> Talk for the NASA Space Apps Challenge about how to get started in Data, diferent data roles, and the skills required to be sucessful in this field.
 
-    # jekyiiliquid
-    - type: id_jekyiiliquid
-      title: "Jekyll"
-      url: "https://jekyllrb.com/"
-      info: "Transform your plain text into static websites and blogs."
-    - type: id_jekyiiliquid
-      title: "Jekyll Cheat Sheet"
-      url: "https://cloudcannon.com/community/jekyll-cheat-sheet/"
-      info: "There are so many Jekyll variables and filters to remember and it can be tricky to keep it all in your head. This cheat sheet serves as a quick reference of everything Jekyll can do."
-    - type: id_jekyiiliquid
-      title: "Liquid for Designers"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Designers"
-      info: "Liquid for Designers wiki on GitHub"
+    - type: id_ml
+      title: "Panel Women In AI (EN)"
+      url: "https://www.youtube.com/watch?v=jAhceV6KbWg"
+      info: >
+        08/2020 <br> Panelist in <a href="https://www.riiaa.org/" target="_blank">RIIAA</a> to discuss Machine Learning, Ethics and Diversity in AI.
+
+    - type: id_ml
+      title: "AI + Healthcare (ESP)"
+      url: "https://www.youtube.com/watch?v=VR2UTbZnF4I"
+      info: >
+        07/2018 <br> This talk introduces to AI algorithms applied in Healthcare. It was also discussed how Artificial Intelligence, instead of replacing doctors, can extend their capabilities.
+
+    - type: id_ml
+      title: "Intro to Artificial Intelligence (ESP)"
+      url: 
+      info: >
+        07/2017 <br> An introductory talk for <a href="https://www.laboratoria.la/" target="_blank">Laboratoria</a> students.
+
+
+    # SWE
+    - type: id_swe
+      title: "Panel: The Complexity of Software Development"
+      url: "https://docker.events.cube365.net/dockercon/2022"
+      info: >
+        05/2022 <br> Panelist at the dockercon
+
+    # Fairness and Ethics    
+    - type: id_fairness
+      title: "AI Ethics: How to Ensure Fairness in the Algorithms we create"
+      url: 
+      info: >
+        10/2021<br> International Guest Speaker in the master course of "Data Science" (with reference 7CS034) at the School of Mathematics and Computer Science of the Faculty of Science and Engineering of the University of Wolverhampton in the United Kingdom.
+
+    - type: id_fairness
+      title: "AI Ethics: How to Ensure Fairness in the Algorithms we create"
+      url:
+      info: >
+        09/2020<br> International Guest Speaker in the master course of "Data Science" (with reference 7CS034) at the School of Mathematics and Computer Science of the Faculty of Science and Engineering of the University of Wolverhampton in the United Kingdom.
+
+    - type: id_fairness
+      title: "Biases in the AI design process (ESP)"
+      url: "https://open.spotify.com/episode/54puJoAWoWJryfJtbBztgI?si=219ac6bb29904e34"
+      info: >
+        07/2020 <br> Part I. Podcast about how AI biases and how to design with an ethical perspective."
+
+    - type: id_fairness
+      title: "Biases in the AI design process (ESP)"
+      url: "https://open.spotify.com/episode/0MdKK9kT2HoxrNo9YWiEWI?si=f58b126c05054f30"
+      info: >
+        07/2020 <br> Part II. Podcast about how AI biases and how to design with an ethical perspective.
+
     - type: id_jekyiiliquid
       title: "Liquid for Programmers"
       url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Programmers"
@@ -89,4 +131,28 @@ page_data:
       title: "W3Schools"
       url: "https://www.w3schools.com/"
       info: "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many more."
+  
+    - type: id_webdesign
+      title: "W3Schools"
+      url: "https://www.w3schools.com/"
+      info: "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many more."
+
+    - type: id_webdesign
+      title: "W3Schools"
+      url: "https://www.w3schools.com/"
+      info: "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many more."
+
+
+    # NLP
+    - type: id_nlp
+      title: "Natural Language Processing Techniques: NER - Named Entity Recognition (ESP)"
+      url: "https://youtu.be/Z9Bkha3u00g"
+      info: >
+        04/2018 <br> This talk is about Information Extraction Systems and Named Entity Recognition, a very known technique in NLP.
+
+    - type: id_nlp
+      title: "Natural Language Processing Models (ESP)"
+      url: "https://www.youtube.com/watch?v=kNC8V7MjKp8"
+      info: >
+        02/2018 <br> This talk introduces how Natural Processing Models are related to different processes in the brain, and how machines are able to process and understand the language we (humans) use in our in our daily life. It also introduces different NLP techniques, and the level of implementation and difficulty of each. Finally, an NLP example is provided and an outline of what you need to know and learn to apply NLP is discussed.
 ---
