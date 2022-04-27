@@ -148,7 +148,7 @@ about:
   email_title: email
 
 # for links layout
-links:
+talks:
   title: Talks
   button_name: Talks
   link_text: Title
